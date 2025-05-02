@@ -234,4 +234,3 @@ def remove_merged():
             os.remove("Merged.pptx")
 
     threading.Thread(target=delete).start()
-
